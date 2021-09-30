@@ -19,7 +19,7 @@
                 <GradientStop Color="Red" />
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="TextBox"
+        <TextBox x:Name="PrincipalTextBox"
                  HorizontalAlignment="Left"
                  Height="340"
                  Margin="22,27,0,0"
@@ -29,7 +29,7 @@
                  TextChanged="TextBox_TextChanged"
                  AcceptsReturn="True"
                  MaxLength="140" />
-        <TextBlock x:Name="CaracteresTextBlock"
+        <TextBlock x:Name="ContadorTextBlock"
                    HorizontalAlignment="Left"
                    Margin="638,372,0,0"
                    TextWrapping="Wrap"

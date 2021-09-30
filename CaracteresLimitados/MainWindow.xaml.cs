@@ -16,11 +16,11 @@ namespace CaracteresLimitados
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            CaracteresTextBlock.Text = TextBox.Text.Length.ToString() + "/140";
+            ContadorTextBlock.Text = PrincipalTextBox.Text.Length.ToString() + "/140";
 
-            if (TextBox.Text.Length == 140)
+            if (PrincipalTextBox.Text.Length == 140)
             {
-                TextBox.IsReadOnly = true;
+                PrincipalTextBox.IsReadOnly = true;
             }
         }
     }
